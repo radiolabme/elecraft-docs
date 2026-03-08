@@ -14,7 +14,8 @@
     "lint:fix": "prettier --write \"**/*.{md,mdx,astro,js,mjs,ts,json,yaml,yml}\" && markdownlint \"**/*.md\" --ignore node_modules --ignore dist --fix",
     "type-check": "astro check && tsc --noEmit",
     "audit": "npm audit --audit-level=high",
-    "ci": "npm run audit && npm run lint && npm run type-check && npm run build",
+    "check-links": "node scripts/check-links.mjs",
+    "ci": "npm run audit && npm run lint && npm run type-check && npm run build && npm run check-links",
     "prepare": "husky",
     "init": "node scripts/init.mjs"
   },

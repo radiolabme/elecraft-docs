@@ -120,14 +120,14 @@ A complete listing of every document in this library, organized by category.
 
 ## P3 Panadapter
 
-| Document                         | PDF                                                                                |
-| -------------------------------- | ---------------------------------------------------------------------------------- |
-| P3 Owner's Manual Rev H1         | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Owners_Manual_Rev_H1.pdf)         |
-| P3 SVGA Option Rev E             | [Download](/elecraft-docs/contrib/elecraft/p3/P3_SVGA_Option_Rev_E.pdf)            |
-| P3 TX Monitor Option Rev B       | [Download](/elecraft-docs/contrib/elecraft/p3/P3_TX_Monitor_Option_Rev_B.pdf)      |
-| P3 Programmer's Reference Rev A7 | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Programmers_Reference_Rev_A7.pdf) |
-| P3 Schematic Rev D               | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Schematic_Rev_D.pdf)              |
-| P3 SVGA Schematic                | [Download](/elecraft-docs/contrib/elecraft/p3/P3_SVGA_Schematic.pdf)               |
+| Document                         | PDF                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------ |
+| P3 Owner's Manual Rev H1         | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Owners_Manual_Rev_H1.pdf)           |
+| P3 SVGA Option Rev E             | [Download](/elecraft-docs/contrib/elecraft/p3/P3_SVGA_Option_Installation_Rev_E.pdf) |
+| P3 TX Monitor Option Rev B       | [Download](/elecraft-docs/contrib/elecraft/p3/P3_TX_Monitor_Option_Rev_B.pdf)        |
+| P3 Programmer's Reference Rev A7 | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Programmers_Reference_Rev_A7.pdf)   |
+| P3 Schematic Rev D               | [Download](/elecraft-docs/contrib/elecraft/p3/P3_Schematic_Rev_D.pdf)                |
+| P3 SVGA Schematic                | [Download](/elecraft-docs/contrib/elecraft/p3/P3_SVGA_Schematic.pdf)                 |
 
 ## SP3 Internal Speaker
 
@@ -137,16 +137,16 @@ A complete listing of every document in this library, organized by category.
 
 ## XV Transverter Series
 
-| Document                                       | PDF                                                                                        |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| XV Transverter Owner's Manual Rev F1           | [Download](/elecraft-docs/contrib/elecraft/xv/XV_Owners_Manual_Rev_F1.pdf)                 |
-| XV Transverter Owner's Manual Errata F1-3      | [Download](/elecraft-docs/contrib/elecraft/xv/XV_Owners_Manual_Errata_F1-3.pdf)            |
-| XV50/XV144/XV222 Assembly Manual Rev E         | [Download](/elecraft-docs/contrib/elecraft/xv/XV50_144_222_Assembly_Manual_Rev_E.pdf)      |
-| XV50/XV144/XV222 Assembly Manual Errata E-2    | [Download](/elecraft-docs/contrib/elecraft/xv/XV50_144_222_Assembly_Manual_Errata_E-2.pdf) |
-| XV432 Assembly Manual Rev D                    | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Manual_Rev_D.pdf)             |
-| XV432 Assembly Manual Errata D-5               | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Manual_Errata_D-5.pdf)        |
-| XV432 High Accuracy Crystal Installation Rev D | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_High_Accuracy_Crystal_Rev_D.pdf)       |
-| Transverter Application Notes Rev C            | [Download](/elecraft-docs/contrib/elecraft/xv/Transverter_App_Notes_Rev_C.pdf)             |
+| Document                                       | PDF                                                                                       |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| XV Transverter Owner's Manual Rev F1           | [Download](/elecraft-docs/contrib/elecraft/xv/XV_Transverter_Owners_Manual_Rev_F1.pdf)    |
+| XV Transverter Owner's Manual Errata F1-3      | [Download](/elecraft-docs/contrib/elecraft/xv/XV_Transverter_Manual_Errata_F1-3.pdf)      |
+| XV50/XV144/XV222 Assembly Manual Rev E         | [Download](/elecraft-docs/contrib/elecraft/xv/XV50_XV144_XV222_Assembly_Manual_Rev_E.pdf) |
+| XV50/XV144/XV222 Assembly Manual Errata E-2    | [Download](/elecraft-docs/contrib/elecraft/xv/XV50_XV144_XV222_Assembly_Errata_E-2.pdf)   |
+| XV432 Assembly Manual Rev D                    | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Manual_Rev_D.pdf)            |
+| XV432 Assembly Manual Errata D-5               | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Errata_D-5.pdf)              |
+| XV432 High Accuracy Crystal Installation Rev D | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_High_Accuracy_Crystal_Rev_D.pdf)      |
+| Transverter Application Notes Rev C            | [Download](/elecraft-docs/contrib/elecraft/xv/Transverter_Application_Notes_Rev_C.pdf)    |
 
 ## Shared Reference
 

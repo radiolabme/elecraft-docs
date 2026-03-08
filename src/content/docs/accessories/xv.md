@@ -9,29 +9,29 @@ The Elecraft XV series are external transverter modules that extend K3/K3S opera
 
 The owner's manual covers operation of all XV transverter models.
 
-- [XV Transverter Owner's Manual Rev F1](/elecraft-docs/contrib/elecraft/xv/XV_Owners_Manual_Rev_F1.pdf)
-- [XV Transverter Owner's Manual Errata F1-3](/elecraft-docs/contrib/elecraft/xv/XV_Owners_Manual_Errata_F1-3.pdf)
+- [XV Transverter Owner's Manual Rev F1](/elecraft-docs/contrib/elecraft/xv/XV_Transverter_Owners_Manual_Rev_F1.pdf)
+- [XV Transverter Owner's Manual Errata F1-3](/elecraft-docs/contrib/elecraft/xv/XV_Transverter_Manual_Errata_F1-3.pdf)
 
 ## XV50 / XV144 / XV222 Assembly Manual
 
 Assembly instructions for the 6M, 2M, and 222 MHz transverter modules (shared manual).
 
-- [XV50/XV144/XV222 Assembly Manual Rev E](/elecraft-docs/contrib/elecraft/xv/XV50_144_222_Assembly_Manual_Rev_E.pdf)
-- [XV50/XV144/XV222 Assembly Manual Errata E-2](/elecraft-docs/contrib/elecraft/xv/XV50_144_222_Assembly_Manual_Errata_E-2.pdf)
+- [XV50/XV144/XV222 Assembly Manual Rev E](/elecraft-docs/contrib/elecraft/xv/XV50_XV144_XV222_Assembly_Manual_Rev_E.pdf)
+- [XV50/XV144/XV222 Assembly Manual Errata E-2](/elecraft-docs/contrib/elecraft/xv/XV50_XV144_XV222_Assembly_Errata_E-2.pdf)
 
 ## XV432 Assembly Manual
 
 Assembly instructions for the 432 MHz transverter module (separate manual due to design differences).
 
 - [XV432 Assembly Manual Rev D](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Manual_Rev_D.pdf)
-- [XV432 Assembly Manual Errata D-5](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Manual_Errata_D-5.pdf)
+- [XV432 Assembly Manual Errata D-5](/elecraft-docs/contrib/elecraft/xv/XV432_Assembly_Errata_D-5.pdf)
 - [XV432 High Accuracy Crystal Installation Rev D](/elecraft-docs/contrib/elecraft/xv/XV432_High_Accuracy_Crystal_Rev_D.pdf)
 
 ## Application Notes
 
 General transverter application information applicable to all XV models.
 
-- [Transverter Application Notes Rev C](/elecraft-docs/contrib/elecraft/xv/Transverter_App_Notes_Rev_C.pdf)
+- [Transverter Application Notes Rev C](/elecraft-docs/contrib/elecraft/xv/Transverter_Application_Notes_Rev_C.pdf)
 
 ## K3/K3S Interface Requirements
 
