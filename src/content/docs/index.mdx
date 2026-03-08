@@ -15,32 +15,41 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 ## Documentation Library
 
 <CardGrid stagger>
-  <Card title="K3 Transceiver" icon="document">
-    Owner's manual, assembly manual, schematics, data sheet, and crystal filter documentation for
-    the original K3.
-  </Card>
-  <Card title="K3S Transceiver" icon="document">
-    Owner's manual, assembly manual, schematics, FAQ, and comparison documentation for the K3S.
-  </Card>
-  <Card title="Options & Upgrades" icon="setting">
-    Installation manuals for KPA3, KAT3, KBPF3, KXV3, KRX3, KDVR3, KSYN3A, KIO3B, and more.
-  </Card>
-  <Card title="Modification Notes" icon="list-format">
-    Application notes, modification procedures, and technical alerts from Elecraft.
-  </Card>
-  <Card title="Accessories" icon="puzzle">
-    Documentation for the K144XV 2M transverter, P3 panadapter, SP3 speaker, and XV transverter
-    series.
-  </Card>
-  <Card title="Fred Cady Books" icon="open-book">
-    Supplementary instructional books by Fred Cady (KE7X) covering the K3, K3S, P3, and macro
-    programming.
-  </Card>
+  <LinkCard
+    title="K3 Transceiver"
+    href="/elecraft-docs/k3/"
+    description="Owner's manual, assembly manual, schematics, data sheet, and crystal filter documentation for the original K3."
+  />
+  <LinkCard
+    title="K3S Transceiver"
+    href="/elecraft-docs/k3s/"
+    description="Owner's manual, assembly manual, schematics, FAQ, and comparison documentation for the K3S."
+  />
+  <LinkCard
+    title="Options & Upgrades"
+    href="/elecraft-docs/k3/options/"
+    description="Installation manuals for KPA3, KAT3, KBPF3, KXV3, KRX3, KDVR3, KSYN3A, KIO3B, and more."
+  />
+  <LinkCard
+    title="Modification Notes"
+    href="/elecraft-docs/k3/modifications/"
+    description="Application notes, modification procedures, and technical alerts from Elecraft."
+  />
+  <LinkCard
+    title="Accessories"
+    href="/elecraft-docs/accessories/k144xv/"
+    description="Documentation for the K144XV 2M transverter, P3 panadapter, SP3 speaker, and XV transverter series."
+  />
+  <LinkCard
+    title="Fred Cady Books"
+    href="/elecraft-docs/reference/fred-cady/"
+    description="Supplementary instructional books by Fred Cady (KE7X) covering the K3, K3S, P3, and macro programming."
+  />
 </CardGrid>
 
 ## Sources

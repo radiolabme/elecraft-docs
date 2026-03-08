@@ -7,7 +7,7 @@ Official Elecraft modification procedures and application notes for the K3S tran
 
 ## Mechanical Modifications
 
-- [VFO B Knob Instructions Rev A](/contrib/elecraft/k3s-mods/VFO_B_Knob_Instructions_Rev_A.pdf) (88 KB) - Replacement VFO B knob installation
+- [VFO B Knob Instructions Rev A](/elecraft-docs/contrib/elecraft/k3s-mods/VFO_B_Knob_Instructions_Rev_A.pdf) (88 KB) - Replacement VFO B knob installation
 
 ## Application Notes
 
@@ -15,17 +15,17 @@ Official Elecraft modification procedures and application notes for the K3S tran
 
 How to configure virtual serial port connections for CAT control and logging.
 
-- [Using Virtual Serial Ports with K3/K3S](/contrib/elecraft/k3s-mods/Using_Virtual_Serial_Ports_K3_K3S.pdf) (676 KB)
+- [Using Virtual Serial Ports with K3/K3S](/elecraft-docs/contrib/elecraft/k3s-mods/Using_Virtual_Serial_Ports_K3_K3S.pdf) (676 KB)
 
 ### 630 Meter Operation
 
 Guide for operating the K3 or K3S on the 630-meter band (472-479 kHz).
 
-- [Operating 630M with K3/K3S](/contrib/elecraft/k3s-mods/Operating_630M_with_K3_K3S.pdf) (320 KB)
+- [Operating 630M with K3/K3S](/elecraft-docs/contrib/elecraft/k3s-mods/Operating_630M_with_K3_K3S.pdf) (320 KB)
 
 ## K3 Modifications Also Applicable to K3S
 
-Many K3 modifications and application notes apply to both models. See the [K3 Modifications](/k3/modifications/) page for the complete list, particularly:
+Many K3 modifications and application notes apply to both models. See the [K3 Modifications](/elecraft-docs/k3/modifications/) page for the complete list, particularly:
 
 - Transverter application notes
 - Audio-related modifications
