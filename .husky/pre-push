@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# Check if we can run npm commands (node_modules exists)
+HAS_NODE_MODULES=false
+if [ -d "node_modules/.bin" ]; then
+  HAS_NODE_MODULES=true
+fi
+
+# Get files changed since last push (handle single-commit repos)
+if git rev-parse @{push} >/dev/null 2>&1; then
+  CHANGED=$(git diff --name-only @{push}.. 2>/dev/null)
+elif git rev-parse HEAD~1 >/dev/null 2>&1; then
+  CHANGED=$(git diff --name-only HEAD~1)
+else
+  # Single commit repo - check all tracked files
+  CHANGED=$(git ls-tree -r HEAD --name-only)
+fi
+
+# Check if only content files changed
+CONTENT_ONLY=true
+for file in $CHANGED; do
+  case "$file" in
+    src/content/*.md|src/content/**/*.md|src/content/*.mdx|src/content/**/*.mdx) ;;
+    *) CONTENT_ONLY=false; break ;;
+  esac
+done
+
+if [ "$CONTENT_ONLY" = true ] && [ -n "$CHANGED" ]; then
+  echo "📝 Content-only changes - running lightweight validation"
+  if [ "$HAS_NODE_MODULES" = true ]; then
+    npx astro check
+    npm run build
+  else
+    echo "⚠️  No node_modules found - skipping validation (run 'make ci' before pushing)"
+  fi
+else
+  echo "🔧 Code changes detected - running full pre-push"
+  if [ "$HAS_NODE_MODULES" = true ]; then
+    npm run ci
+  else
+    echo "⚠️  No node_modules found - use 'make ci' to validate before pushing"
+    exit 1
+  fi
+fi

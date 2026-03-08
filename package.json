@@ -1,0 +1,48 @@
+{
+  "name": "elecraft-docs",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Elecraft K3 and K3S documentation library",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "prettier --check \"**/*.{md,mdx,astro,js,mjs,ts,json,yaml,yml}\" && markdownlint \"**/*.md\" --ignore node_modules --ignore dist",
+    "lint:fix": "prettier --write \"**/*.{md,mdx,astro,js,mjs,ts,json,yaml,yml}\" && markdownlint \"**/*.md\" --ignore node_modules --ignore dist --fix",
+    "type-check": "astro check && tsc --noEmit",
+    "audit": "npm audit --audit-level=moderate",
+    "ci": "npm run audit && npm run lint && npm run type-check && npm run build",
+    "prepare": "husky",
+    "init": "node scripts/init.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.37.3",
+    "astro": "5.16.11",
+    "sharp": "0.34.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.6",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "markdownlint-cli": "0.47.0",
+    "prettier": "3.8.0",
+    "prettier-plugin-astro": "0.14.1",
+    "typescript": "5.9.3"
+  },
+  "lint-staged": {
+    "*.{md,mdx}": [
+      "prettier --write",
+      "markdownlint --fix"
+    ],
+    "*.{astro,js,mjs,ts,json,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "npm@10.9.2"
+}

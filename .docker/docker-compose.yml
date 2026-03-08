@@ -1,0 +1,86 @@
+services:
+  # Development server with hot reload
+  dev:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - /workspace/node_modules
+      - /workspace/dist
+      - /workspace/.astro
+    ports:
+      - '${PORT:-4321}:4321'
+    environment:
+      - NODE_ENV=development
+    networks:
+      - docs-net
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:4321']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  # Production build and serve with Astro preview
+  serve:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - /workspace/node_modules
+      - /workspace/dist
+      - /workspace/.astro
+    ports:
+      - '${PORT:-4321}:4321'
+    environment:
+      - NODE_ENV=production
+    entrypoint: []
+    command:
+      - /bin/sh
+      - -c
+      - |
+        echo "Installing dependencies..."
+        npm ci --include=dev
+        echo "Building site..."
+        npm run build
+        echo "Starting preview server..."
+        npm run preview -- --host 0.0.0.0
+    networks:
+      - docs-net
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:4321']
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # CI testing - runs lint, type-check, and build
+  ci:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - /workspace/node_modules
+      - /workspace/dist
+      - /workspace/.astro
+    environment:
+      - CI=true
+      - NODE_ENV=production
+    entrypoint: []
+    command:
+      - /bin/sh
+      - -c
+      - |
+        echo "Installing dependencies..."
+        npm ci --include=dev
+        echo "Running CI checks..."
+        npm run ci
+    networks:
+      - docs-net
+
+networks:
+  docs-net:
+    driver: bridge
