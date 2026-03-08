@@ -148,6 +148,48 @@ A complete listing of every document in this library, organized by category.
 | XV432 High Accuracy Crystal Installation Rev D | [Download](/elecraft-docs/contrib/elecraft/xv/XV432_High_Accuracy_Crystal_Rev_D.pdf)      |
 | Transverter Application Notes Rev C            | [Download](/elecraft-docs/contrib/elecraft/xv/Transverter_Application_Notes_Rev_C.pdf)    |
 
+## KPA500 Amplifier
+
+| Document                               | PDF                                                                                           |
+| -------------------------------------- | --------------------------------------------------------------------------------------------- |
+| KPA500 Owner's Manual Rev E1           | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Owners_Manual_Rev_E1.pdf)            |
+| KPA500 Assembly Manual Rev F9          | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Assembly_Manual_Rev_F9.pdf)          |
+| KPA500 Assembly Manual Errata F9-2     | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Assembly_Manual_Errata_F9-2.pdf)     |
+| KPA500 Assembly Manual Errata F9-3     | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Assembly_Manual_Errata_F9-3.pdf)     |
+| KPAK3AUX Cable Set Instructions Rev 1E | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPAK3AUX_Cable_Set_Instructions_Rev_1E.pdf) |
+| KPA500 Fuse Reminder                   | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Fuse_Reminder.pdf)                   |
+| KPA500 Programmer's Reference          | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Programmers_Ref.pdf)                 |
+| KPA500-Remote Software Guide           | [Download](/elecraft-docs/contrib/elecraft/kpa500/KPA500_Remote.pdf)                          |
+
+## KAT500 Tuner
+
+| Document                        | PDF                                                                                    |
+| ------------------------------- | -------------------------------------------------------------------------------------- |
+| KAT500 Owner's Manual Rev D1    | [Download](/elecraft-docs/contrib/elecraft/kat500/KAT500_Owners_Manual_Rev_D1.pdf)     |
+| KAT500 Serial Command Reference | [Download](/elecraft-docs/contrib/elecraft/kat500/KAT500_Serial_Command_Reference.pdf) |
+| KAT500-Remote Software Guide    | [Download](/elecraft-docs/contrib/elecraft/kat500/KAT500_Remote.pdf)                   |
+
+## KPA500/KAT500 Power Combo - Radio Interconnects
+
+| Document                                    | PDF                                                                                             |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Interfacing Power Combo to Yaesu Radios     | [Download](/elecraft-docs/contrib/elecraft/power-combo/Interfacing_PowerCombo_to_Yaesu.pdf)     |
+| Interfacing Power Combo to Kenwood Radios   | [Download](/elecraft-docs/contrib/elecraft/power-combo/Interfacing_PowerCombo_to_Kenwood.pdf)   |
+| Interfacing Power Combo to Flex 6000-series | [Download](/elecraft-docs/contrib/elecraft/power-combo/Interfacing_PowerCombo_to_Flex_6000.pdf) |
+| KPA500 to Yaesu FT-857/897                  | [Download](/elecraft-docs/contrib/elecraft/power-combo/KPA500_to_Yaesu_FT857_897.pdf)           |
+| KPA500 to Yaesu FT-990/991                  | [Download](/elecraft-docs/contrib/elecraft/power-combo/KPA500_to_Yaesu_FT990_991.pdf)           |
+| KPA500 to Kenwood TS-2000                   | [Download](/elecraft-docs/contrib/elecraft/power-combo/KPA500_to_Kenwood_TS2000.pdf)            |
+| KPA500 to Kenwood TS-570                    | [Download](/elecraft-docs/contrib/elecraft/power-combo/KPA500_to_Kenwood_TS570.pdf)             |
+| KPA500 to Kenwood TS-590S                   | [Download](/elecraft-docs/contrib/elecraft/power-combo/KPA500_to_Kenwood_TS590S.pdf)            |
+| Power Combo to Flex 6500                    | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Flex_6500.pdf)             |
+| Power Combo to FlexRadio 6300               | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_FlexRadio_6300.pdf)        |
+| Power Combo to Icom Pro III                 | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Icom_ProIII.pdf)           |
+| Power Combo to Icom IC-7300                 | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Icom_7300.pdf)             |
+| Power Combo to Icom IC-7610                 | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Icom_7610.pdf)             |
+| Power Combo to Yaesu FTdx1200               | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Yaesu_FTdx1200.pdf)        |
+| Power Combo to Yaesu FTdx3000               | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Yaesu_FTdx3000.pdf)        |
+| Power Combo to Yaesu FT-950/FT-450D         | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Yaesu_FT950_FT450D.pdf)    |
+
 ## Shared Reference
 
 | Document                                     | PDF                                                                                            |

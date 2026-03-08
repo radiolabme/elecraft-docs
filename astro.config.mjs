@@ -43,10 +43,7 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Getting Started',
-          items: [
-            { label: 'Introduction', slug: 'index' },
-            { label: 'Document Index', slug: 'document-index' },
-          ],
+          items: [{ label: 'Introduction', slug: 'index' }],
         },
         {
           label: 'K3 Transceiver',
@@ -65,6 +62,17 @@ export default defineConfig({
           ],
         },
         {
+          label: 'KPA500 Amplifier',
+          items: [
+            { label: 'Overview', slug: 'kpa500' },
+            { label: 'Radio Interconnects', slug: 'kpa500/interconnects' },
+          ],
+        },
+        {
+          label: 'KAT500 Tuner',
+          items: [{ label: 'Overview', slug: 'kat500' }],
+        },
+        {
           label: 'Accessories',
           items: [
             { label: 'K144XV 2M Transverter', slug: 'accessories/k144xv' },
@@ -76,8 +84,19 @@ export default defineConfig({
         {
           label: 'Reference',
           items: [
-            { label: "Programmer's Reference", slug: 'reference/programmers-ref' },
+            {
+              label: 'K3/K3S/KX3/KX2 Commands',
+              slug: 'reference/k3-commands',
+            },
+            { label: 'P3 Commands', slug: 'reference/p3-commands' },
+            { label: 'KPA500 Commands', slug: 'reference/kpa500-commands' },
+            { label: 'KAT500 Commands', slug: 'reference/kat500-commands' },
+            {
+              label: "Programmer's Reference PDFs",
+              slug: 'reference/programmers-ref',
+            },
             { label: 'Fred Cady Books', slug: 'reference/fred-cady' },
+            { label: 'Document Index', slug: 'document-index' },
           ],
         },
       ],
