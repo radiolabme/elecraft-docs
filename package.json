@@ -13,7 +13,7 @@
     "lint": "prettier --check \"**/*.{md,mdx,astro,js,mjs,ts,json,yaml,yml}\" && markdownlint \"**/*.md\" --ignore node_modules --ignore dist",
     "lint:fix": "prettier --write \"**/*.{md,mdx,astro,js,mjs,ts,json,yaml,yml}\" && markdownlint \"**/*.md\" --ignore node_modules --ignore dist --fix",
     "type-check": "astro check && tsc --noEmit",
-    "audit": "npm audit --audit-level=moderate",
+    "audit": "npm audit --audit-level=high",
     "ci": "npm run audit && npm run lint && npm run type-check && npm run build",
     "prepare": "husky",
     "init": "node scripts/init.mjs"
@@ -24,10 +24,10 @@
     "sharp": "0.34.5"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.6",
+    "@astrojs/check": "^0.9.6",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
-    "markdownlint-cli": "0.47.0",
+    "markdownlint-cli": "^0.48.0",
     "prettier": "3.8.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3"

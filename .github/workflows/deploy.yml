@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Security audit
-        run: npm audit --audit-level=moderate
+        run: npm audit --audit-level=high
 
       - name: Run CI checks
         run: npm run ci
