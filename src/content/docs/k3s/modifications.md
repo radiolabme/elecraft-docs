@@ -5,6 +5,8 @@ description: Modification notes and application notes for the K3S
 
 Official Elecraft modification procedures and application notes for the K3S transceiver.
 
+For the latest modifications and alerts, see the [Elecraft Mods, Notes & Alerts](https://elecraft.com/pages/mods-notes-alerts) page.
+
 ## Mechanical Modifications
 
 - [VFO B Knob Instructions Rev A](/elecraft-docs/contrib/elecraft/k3s-mods/VFO_B_Knob_Instructions_Rev_A.pdf) (88 KB) - Replacement VFO B knob installation

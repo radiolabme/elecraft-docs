@@ -5,6 +5,8 @@ description: Modification notes, application notes, and technical alerts for the
 
 Official Elecraft modification procedures, application notes, and technical alerts for the K3 transceiver and its option boards.
 
+For the latest modifications and alerts, see the [Elecraft Mods, Notes & Alerts](https://elecraft.com/pages/mods-notes-alerts) page.
+
 ## Audio Modifications
 
 - [AF Output Mod Rev C](/elecraft-docs/contrib/elecraft/k3-mods/AF_Output_Mod_Rev_C.pdf) (912 KB)

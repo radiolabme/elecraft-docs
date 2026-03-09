@@ -6,8 +6,8 @@ hero:
   title: Elecraft K3 Documentation Library
   tagline: Manuals, schematics, modification notes, and reference materials for the K3, K3S, and the complete Elecraft accessory ecosystem
   image:
-    file: ../../assets/images/k3s.jpg
-    alt: Elecraft K3S Transceiver
+    file: ../../assets/images/k3.png
+    alt: Elecraft K3 Transceiver
   actions:
     - text: Browse Documents
       link: /elecraft-docs/document-index/
@@ -20,9 +20,9 @@ hero:
 
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
-import kpa500Image from '../../assets/images/kpa500.jpg';
-import p3Image from '../../assets/images/p3.jpg';
-import kat500Image from '../../assets/images/kat500.jpg';
+import kpa500Image from '../../assets/images/kpa500.png';
+import p3Image from '../../assets/images/p3.png';
+import kat500Image from '../../assets/images/kat500.png';
 
 The Elecraft K3 platform is a high-performance, modular HF/6M transceiver system designed for serious amateur radio operators. Starting with the original K3 and continuing with the refined K3S, Elecraft built a tightly integrated ecosystem of station equipment including the P3 panadapter for real-time spectrum display, the KPA500 500-watt solid-state amplifier, and the KAT500 automatic antenna tuner. The platform also supports transverter operation on VHF and above through the K144XV and XV series transverter interfaces. This documentation library collects the official manuals, schematics, application notes, and supplementary reference materials for the entire K3 station lineup.
 
@@ -90,6 +90,23 @@ The Elecraft K3 platform is a high-performance, modular HF/6M transceiver system
     title="XV Transverters"
     href="/elecraft-docs/accessories/xv/"
     description="Documentation for the XV series transverter interface boards and VHF/UHF transverter support."
+  />
+</CardGrid>
+
+---
+
+## Programming Guide
+
+<CardGrid>
+  <LinkCard
+    title="K3/K3S Programming Guide"
+    href="/elecraft-docs/programming/"
+    description="Task-oriented guide to controlling the K3/K3S via serial CAT commands, with state machines, integration patterns, and error handling."
+  />
+  <LinkCard
+    title="Station Integration"
+    href="/elecraft-docs/programming/station/"
+    description="Coordinating a complete K3 + KPA500 + KAT500 station: startup sequences, band changes, and TX cycling."
   />
 </CardGrid>
 

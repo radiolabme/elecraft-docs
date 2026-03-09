@@ -190,6 +190,23 @@ A complete listing of every document in this library, organized by category.
 | Power Combo to Yaesu FTdx3000               | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Yaesu_FTdx3000.pdf)        |
 | Power Combo to Yaesu FT-950/FT-450D         | [Download](/elecraft-docs/contrib/elecraft/power-combo/PowerCombo_to_Yaesu_FT950_FT450D.pdf)    |
 
+## Programming Guide
+
+| Page                                                             | Description                                                    |
+| ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Overview](/elecraft-docs/programming/)                          | Serial setup, GET/SET/RSP model, command conventions           |
+| [Connection & Discovery](/elecraft-docs/programming/connection/) | Finding the radio, identification, power state, initialization |
+| [Frequency & Modes](/elecraft-docs/programming/frequency-modes/) | VFO control, band selection, operating modes, DATA sub-modes   |
+| [Receiver Control](/elecraft-docs/programming/receiver/)         | Gain, filters, AGC, noise reduction, S-meter                   |
+| [Transmitter Control](/elecraft-docs/programming/transmitter/)   | TX/RX control, power, metering, VOX                            |
+| [Voice, CW & Data](/elecraft-docs/programming/voice-cw-data/)    | SSB, AM/FM, CW keying and buffered send, DATA modes            |
+| [Advanced Features](/elecraft-docs/programming/advanced/)        | Split, sub-receiver, diversity, RIT/XIT, IF command            |
+| [Event Handling](/elecraft-docs/programming/events/)             | Auto-information modes, polling vs events                      |
+| [Error Handling](/elecraft-docs/programming/errors/)             | Error recovery, retry patterns, buffer management              |
+| [KPA500 Integration](/elecraft-docs/programming/kpa500/)         | Amplifier state machine, band coordination, fault monitoring   |
+| [KAT500 Integration](/elecraft-docs/programming/kat500/)         | Tuner control, tune cycles, antenna selection                  |
+| [Station Integration](/elecraft-docs/programming/station/)       | Full K3+KPA500+KAT500 startup, band changes, TX cycling        |
+
 ## Shared Reference
 
 | Document                                     | PDF                                                                                            |

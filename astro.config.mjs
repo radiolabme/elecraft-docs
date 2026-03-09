@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightClientMermaid from '@pasqal-io/starlight-client-mermaid';
 
 // GitHub Pages configuration
 const GITHUB_USER = 'radiolabme';
@@ -12,6 +13,7 @@ export default defineConfig({
   base: IS_USER_SITE ? '/' : `/${REPO_NAME}`,
   integrations: [
     starlight({
+      plugins: [starlightClientMermaid()],
       title: 'Elecraft K3 Docs',
       description:
         'Complete documentation library for the Elecraft K3 and K3S transceiver, options, modifications, and accessories',
@@ -27,6 +29,7 @@ export default defineConfig({
           href: `https://github.com/${GITHUB_USER}/${REPO_NAME}`,
         },
       ],
+      customCss: ['./src/styles/custom.css'],
       head: [
         {
           tag: 'meta',
@@ -82,6 +85,26 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Programming Guide',
+          items: [
+            { label: 'Overview', slug: 'programming' },
+            { label: 'Connection & Discovery', slug: 'programming/connection' },
+            {
+              label: 'Frequency & Modes',
+              slug: 'programming/frequency-modes',
+            },
+            { label: 'Receiver Control', slug: 'programming/receiver' },
+            { label: 'Transmitter Control', slug: 'programming/transmitter' },
+            { label: 'Voice, CW & Data', slug: 'programming/voice-cw-data' },
+            { label: 'Advanced Features', slug: 'programming/advanced' },
+            { label: 'Event Handling', slug: 'programming/events' },
+            { label: 'Error Handling', slug: 'programming/errors' },
+            { label: 'KPA500 Integration', slug: 'programming/kpa500' },
+            { label: 'KAT500 Integration', slug: 'programming/kat500' },
+            { label: 'Station Integration', slug: 'programming/station' },
+          ],
+        },
+        {
           label: 'Reference',
           items: [
             {
@@ -91,6 +114,7 @@ export default defineConfig({
             { label: 'P3 Commands', slug: 'reference/p3-commands' },
             { label: 'KPA500 Commands', slug: 'reference/kpa500-commands' },
             { label: 'KAT500 Commands', slug: 'reference/kat500-commands' },
+            { label: 'Schematic Downloads', slug: 'reference/schematics' },
             {
               label: "Programmer's Reference PDFs",
               slug: 'reference/programmers-ref',

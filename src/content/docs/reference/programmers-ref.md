@@ -5,6 +5,8 @@ description: Original PDF programmer's references for Elecraft K3, K3S, KX3, KX2
 
 The programmer's references document the serial CAT (Computer Aided Transceiver) command protocols used to control Elecraft equipment from external software. The original PDF documents are available for download below, and full markdown versions are available for online browsing.
 
+For a task-oriented guide to building applications with these commands, see the [K3/K3S Programming Guide](/elecraft-docs/programming/) — covering connection setup, state machines, event handling, error recovery, and full station integration.
+
 ## Online Command References
 
 Browse the complete command documentation directly in your browser:
