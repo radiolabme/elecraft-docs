@@ -112,27 +112,27 @@ The diagram below shows the available mode transitions and the commands that tri
 
 ```mermaid
 stateDiagram-v2
-    LSB --> USB: MD2;
-    USB --> LSB: MD1;
-    USB --> CW: MD3;
-    CW --> CW_REV: MD7;
-    CW_REV --> CW: MD3;
-    USB --> DATA: MD6;
-    DATA --> DATA_REV: MD9;
-    DATA_REV --> DATA: MD6;
-    USB --> AM: MD5;
-    USB --> FM: MD4;
-    AM --> USB: MD2;
-    FM --> USB: MD2;
+    LSB --> USB : MD2
+    USB --> LSB : MD1
+    USB --> CW : MD3
+    CW --> CW_REV : MD7
+    CW_REV --> CW : MD3
+    USB --> DATA : MD6
+    DATA --> DATA_REV : MD9
+    DATA_REV --> DATA : MD6
+    USB --> AM : MD5
+    USB --> FM : MD4
+    AM --> USB : MD2
+    FM --> USB : MD2
 
     state DATA {
         [*] --> DATA_A
-        DATA_A --> AFSK_A: DT1;
-        AFSK_A --> DATA_A: DT0;
-        DATA_A --> PSK_D: DT2;
-        PSK_D --> DATA_A: DT0;
-        DATA_A --> FSK_D: DT3;
-        FSK_D --> DATA_A: DT0;
+        DATA_A --> AFSK_A : DT1
+        AFSK_A --> DATA_A : DT0
+        DATA_A --> PSK_D : DT2
+        PSK_D --> DATA_A : DT0
+        DATA_A --> FSK_D : DT3
+        FSK_D --> DATA_A : DT0
     }
 ```
 

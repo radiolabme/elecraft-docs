@@ -92,9 +92,9 @@ The K3 has two power states controlled by the `PS` command. The rear-panel power
 ```mermaid
 stateDiagram-v2
     [*] --> Off
-    Off --> PoweringOn: PS1; (power on)
-    PoweringOn --> Ready: Wait 4-5 seconds
-    Ready --> Off: PS0; (power off)
+    Off --> PoweringOn : PS1 (power on)
+    PoweringOn --> Ready : Wait 4-5 seconds
+    Ready --> Off : PS0 (power off)
     Ready --> Ready: Normal operation
 
     note right of PoweringOn

@@ -31,7 +31,7 @@ stateDiagram-v2
     SendCommand --> WaitResponse: Send command
 
     WaitResponse --> Success: Valid response received
-    WaitResponse --> Error: ?; received
+    WaitResponse --> Error : ? received
     WaitResponse --> Timeout: No response within timeout
 
     Success --> [*]: Process response

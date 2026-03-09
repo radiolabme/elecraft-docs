@@ -28,10 +28,10 @@ The K3/K3S can be keyed into transmit mode either from the front panel (PTT swit
 ```mermaid
 stateDiagram-v2
     [*] --> Receive
-    Receive --> Transmit: TX; or TX1;
-    Receive --> Transmit: PTT / VOX / CW key
-    Transmit --> Receive: RX;
-    Transmit --> Receive: PTT release / VOX timeout
+    Receive --> Transmit : TX or TX1
+    Receive --> Transmit : PTT / VOX / CW key
+    Transmit --> Receive : RX
+    Transmit --> Receive : PTT release / VOX timeout
 
     state Transmit {
         [*] --> TX_Active

@@ -20,19 +20,19 @@ stateDiagram-v2
     [*] --> AI0
     AI0: AI0 — Polling Only
     AI0: No unsolicited messages
-    AI0 --> AI1: AI1;
-    AI0 --> AI2: AI2;
+    AI0 --> AI1 : AI1
+    AI0 --> AI2 : AI2
 
     AI1: AI1 — IF Response Mode
-    AI1: Sends IF; on any change
-    AI1 --> AI0: AI0;
-    AI1 --> AI2: AI2;
+    AI1: Sends IF on any change
+    AI1 --> AI0 : AI0
+    AI1 --> AI2 : AI2
 
     AI2: AI2 — Specific Response Mode
     AI2: Sends the specific command
     AI2: that matches the change
-    AI2 --> AI0: AI0;
-    AI2 --> AI1: AI1;
+    AI2 --> AI0 : AI0
+    AI2 --> AI1 : AI1
 ```
 
 - **AI0** (default): Radio sends nothing unsolicited. You must poll for every piece of info.

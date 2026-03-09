@@ -54,9 +54,9 @@ FT0;              Transmit on VFO A (cancel split)
 stateDiagram-v2
     [*] --> Simplex
     Simplex: VFO A TX + RX
-    Simplex --> Split: FT1;
+    Simplex --> Split : FT1
     Split: VFO A RX, VFO B TX
-    Split --> Simplex: FT0;
+    Split --> Simplex : FT0
 
     note right of Split
         Common for DX pileups.
